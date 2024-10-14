@@ -1,0 +1,44 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Homework 1\"\n",
+        "format: html\n",
+        "---\n",
+        "\n",
+        "\n",
+        "__Name:__ Cristina Glave\n",
+        "\n",
+        "\n",
+        "__Question 1:__ Use a programming language of your choice to save today's date to a variable.\n",
+        "Then, include the date in the text below the code block.\n"
+      ],
+      "id": "33c44f7a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# your code here\n",
+        "from datetime import date\n",
+        "todays_date = date.today()\n",
+        "print(\"Today's Date Is \", todays_date)"
+      ],
+      "id": "b286b709",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
