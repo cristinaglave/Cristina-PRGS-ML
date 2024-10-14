@@ -1,0 +1,19 @@
+---
+title: "Homework 1"
+format: html
+---
+
+__Name:__ Cristina Glave
+
+
+__Question 1:__ Use a programming language of your choice to save today's date to a variable.
+Then, include the date in the text below the code block.
+
+```{python}
+# your code here
+from datetime import date
+todays_date = date.today()
+print("Today's Date Is ", todays_date)
+
+```
+
